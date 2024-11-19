@@ -2,12 +2,12 @@
 *
 */
 /*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
-.btn-primary {
+.btn btn-primary mb-3 {
     color: #fff;
     background-color: #0495c9;
     border-color: #357ebd; /*set the color you want here*/
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn btn-primary mb-3:hover, btn btn-primary mb-3:focus, btn btn-primary mb-3:active, btn btn-primary mb-3.active, .open>.dropdown-toggle.btn btn-primary mb-3 {
     color: #fff;
     background-color: #00b3db;
     border-color: #285e8e; /*set the color you want here*/
