@@ -1,38 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
+    <!-- Defines the document type and the language of the document -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Cars Information</title>
+    <meta charset="UTF-8"> 
+    <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <link rel="stylesheet" href="main.css"> 
+    <!-- Links to an external CSS file for additional styles -->
+    <title>
+        Cars Information
+    </title> 
+    <!-- Sets the title of the web page -->
     <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- Links to the Bootstrap CSS for styling -->
 </head>
 <body>
-    <div class="container mt-5">
-        <h1 class="text-center">Cars Information</h1>
+    <div class="container mt-5"> 
+        <!-- Creates a Bootstrap container with a top margin -->
+        <h1 class="text-center">Cars Information</h1> 
+        <!-- A centered heading with the title of the page -->
 
         <!-- Bootstrap Button -->
-        <button id="learnMoreBtn" class="btn btn-primary mb-3">Learn More About Cars</button>
+        <button id="learnMoreBtn" class="btn btn-primary mb-3">Learn More About Cars</button> 
+        <!-- A Bootstrap button with an ID for JavaScript, primary style, and bottom margin -->
 
         <!-- Bootstrap Alert -->
-        <div class="alert alert-info" role="alert">
+        <div class="alert alert-info" role="alert"> 
+            <!-- A Bootstrap alert with informational styling -->
             Did you know? The first automobile was invented in 1886 by Karl Benz!
         </div>
 
         <!-- Bootstrap Badge -->
-        <h2>Car Types <span class="badge badge-secondary">Popular</span></h2>
+        <h2>Car Types <span class="badge badge-secondary">Popular</span></h2> 
+        <!-- Heading with a secondary styled badge indicating popularity -->
         <ul>
-            <li>Sedan <span class="badge badge-primary">Common</span></li>
-            <li>SUV <span class="badge badge-success">Versatile</span></li>
-            <li>Convertible <span class="badge badge-warning">Fun</span></li>
+            <li>Sedan <span class="badge badge-primary">Common</span></li> 
+            <!-- List item with a primary styled badge indicating commonality -->
+            <li>SUV <span class="badge badge-success">Versatile</span></li> 
+            <!-- List item with a success styled badge indicating versatility -->
+            <li>Convertible <span class="badge badge-warning">Fun</span></li> 
+            <!-- List item with a warning styled badge indicating fun -->
         </ul>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+    <!-- Links to the jQuery library required by Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> 
+    <!-- Links to Popper.js library required by Bootstrap for tooltips and popovers -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <!-- Links to Bootstrap JS for Bootstrap's JavaScript components -->
+    <script src="script.js"></script> 
+    <!-- Link to the external JavaScript file -->
 </body>
 </html>
