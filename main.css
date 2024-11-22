@@ -7,7 +7,7 @@
     background-color: #0495c9;
     border-color: #357ebd; /*set the color you want here*/
 }
-.btn btn-primary mb-3:hover, btn btn-primary mb-3:focus, btn btn-primary mb-3:active, btn btn-primary mb-3.active, .open>.dropdown-toggle.btn btn-primary mb-3 {
+.btn btn-primary mb-3:hover, .btn btn-primary mb-3:focus, .btn btn-primary mb-3:active, .btn btn-primary mb-3.active, .open>.dropdown-toggle.btn btn-primary mb-3 {
     color: #fff;
     background-color: #00b3db;
     border-color: #285e8e; /*set the color you want here*/
