@@ -1,0 +1,143 @@
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Section: intro */
+  #zen-intro {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  #zen-intro header {
+    text-align: center;
+  }
+  
+  #zen-intro h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  #zen-intro h2 {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  #zen-summary {
+    margin-top: 20px;
+  }
+  
+  #zen-summary p {
+    margin: 10px 0;
+  }
+  
+  #zen-summary a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  /* Section: preamble */
+  #zen-preamble {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  #zen-preamble h3 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  #zen-preamble p {
+    margin: 10px 0;
+  }
+  
+  /* Main content */
+  #zen-supporting {
+    padding: 20px;
+  }
+  
+  #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
+    margin-bottom: 40px;
+  }
+  
+  #zen-explanation h3, #zen-participation h3, #zen-benefits h3, #zen-requirements h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+  }
+  
+  #zen-explanation p, #zen-participation p, #zen-benefits p, #zen-requirements p {
+    margin: 10px 0;
+  }
+  
+  #zen-participation a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  #zen-requirements a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+   /* Footer */
+   footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 2px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .design-selection, .design-archives, .zen-resources {
+    margin-bottom: 20px;
+  }
+  
+  .design-selection h3, .design-archives h3, .zen-resources h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .design-selection nav ul, .design-archives nav ul, .zen-resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .design-selection li, .design-archives li, .zen-resources li {
+    margin-bottom: 10px;
+  }
+  
+  .design-selection a, .design-archives a, .zen-resources a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .design-archives .indicator {
+    margin-left: 5px;
+  }
