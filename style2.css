@@ -34,7 +34,11 @@ body {
   }
   
   #zen-summary {
-    margin-top: 20px;
+    padding: 25px;
+  background: #fff;
+  margin: 25px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
   }
   
   #zen-summary p {
@@ -62,11 +66,51 @@ body {
     margin: 10px 0;
   }
   
+  /* Typography styling */
+h1, h2, h3 {
+  font-family: 'Merriweather', serif; /* Another Google font */
+}
+
   /* Main content */
   #zen-supporting {
     padding: 20px;
   }
   
+  #zen-explanation {
+    padding: 25px;
+    background: #673ab7;
+    color: #fff;
+    margin: 25px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  #zen-participation {
+    padding: 25px;
+    background: #3f51b5;
+    color: #fff;
+    margin: 25px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  #zen-benefits {
+    padding: 25px;
+    background: #673ab7;
+    color: #fff;
+    margin: 25px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  #zen-requirements {
+    padding: 25px;
+    background: #3f51b5;
+    color: #fff;
+    margin: 25px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  /* Use of pseudo-elements */
+p::first-letter {
+  font-size: 2.5em;
+  color: #12912f;
+  font-weight: bold;
+}
+
   #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
     margin-bottom: 40px;
   }
@@ -141,3 +185,213 @@ body {
   .design-archives .indicator {
     margin-left: 5px;
   }
+/* General styles for the body element */
+body {
+  font-family: Arial, sans-serif; /* Set the font family for the entire document */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Wrapper for the entire page content */
+.page-wrapper {
+  max-width: 1200px; /* Maximum width of the content */
+  margin: 0 auto; /* Center align the content */
+  padding: 20px; /* Add padding around the content */
+}
+
+/* Section: intro */
+#zen-intro {
+  background-color: #f5f5f5; /* Light grey background color */
+  padding: 20px; /* Add padding inside the intro section */
+  border-bottom: 2px solid #ddd; /* Add a bottom border */
+}
+
+/* Center the text inside the header */
+#zen-intro header {
+  text-align: center; /* Center align the text */
+}
+
+/* Styles for the main heading */
+#zen-intro h1 {
+  font-size: 2.5em; /* Set the font size */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styles for the sub-heading */
+#zen-intro h2 {
+  font-size: 1.5em; /* Set the font size */
+  color: #666; /* Set the font color to grey */
+}
+
+/* Section: summary */
+#zen-summary {
+  padding: 25px; /* Add padding inside the summary section */
+  background: #fff; /* White background color */
+  margin: 25px 0; /* Add margin above and below the section */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+}
+
+/* Paragraph styles inside summary */
+#zen-summary p {
+  margin: 10px 0; /* Add margin above and below paragraphs */
+}
+
+/* Link styles inside summary */
+#zen-summary a {
+  color: #0066cc; /* Set link color to blue */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Section: preamble */
+#zen-preamble {
+  background-color: #fff; /* White background color */
+  padding: 20px; /* Add padding inside the preamble section */
+  border-bottom: 2px solid #ddd; /* Add a bottom border */
+}
+
+/* Heading styles inside preamble */
+#zen-preamble h3 {
+  font-size: 1.8em; /* Set the font size */
+  margin: 0; /* Remove default margin */
+}
+
+/* Paragraph styles inside preamble */
+#zen-preamble p {
+  margin: 10px 0; /* Add margin above and below paragraphs */
+}
+
+/* Typography styling */
+h1, h2, h3 {
+  font-family: 'Merriweather', serif; /* Use Google font for headings */
+}
+
+/* Main content section */
+#zen-supporting {
+  padding: 20px; /* Add padding inside the main content section */
+}
+
+/* Explanation section */
+#zen-explanation {
+  padding: 25px; /* Add padding inside the explanation section */
+  background: #673ab7; /* Set background color to purple */
+  color: #fff; /* Set text color to white */
+  margin: 25px 0; /* Add margin above and below the section */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+}
+
+/* Participation section */
+#zen-participation {
+  padding: 25px; /* Add padding inside the participation section */
+  background: #3f51b5; /* Set background color to blue */
+  color: #fff; /* Set text color to white */
+  margin: 25px 0; /* Add margin above and below the section */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+}
+
+/* Benefits section */
+#zen-benefits {
+  padding: 25px; /* Add padding inside the benefits section */
+  background: #673ab7; /* Set background color to purple */
+  color: #fff; /* Set text color to white */
+  margin: 25px 0; /* Add margin above and below the section */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+}
+
+/* Requirements section */
+#zen-requirements {
+  padding: 25px; /* Add padding inside the requirements section */
+  background: #3f51b5; /* Set background color to blue */
+  color: #fff; /* Set text color to white */
+  margin: 25px 0; /* Add margin above and below the section */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+}
+
+/* Pseudo-element for the first letter of paragraphs */
+p::first-letter {
+  font-size: 2.5em; /* Increase the font size */
+  color: #12912f; /* Set the color to green */
+  font-weight: bold; /* Make it bold */
+}
+
+/* Additional margin for sections */
+#zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
+  margin-bottom: 40px; /* Add bottom margin */
+}
+
+/* Heading styles inside specific sections */
+#zen-explanation h3, #zen-participation h3, #zen-benefits h3, #zen-requirements h3 {
+  font-size: 1.5em; /* Set the font size */
+  margin: 0 0 10px 0; /* Add margin below the headings */
+}
+
+/* Paragraph styles inside specific sections */
+#zen-explanation p, #zen-participation p, #zen-benefits p, #zen-requirements p {
+  margin: 10px 0; /* Add margin above and below paragraphs */
+}
+
+/* Link styles inside participation and requirements sections */
+#zen-participation a, #zen-requirements a {
+  color: #0066cc; /* Set link color to blue */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Footer styles */
+footer {
+  background-color: #f5f5f5; /* Light grey background color */
+  padding: 20px; /* Add padding inside the footer */
+  text-align: center; /* Center align the text */
+  border-top: 2px solid #ddd; /* Add a top border */
+}
+
+/* Link styles inside footer */
+footer a {
+  margin: 0 10px; /* Add margin to links */
+  color: #0066cc; /* Set link color to blue */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f9f9f9; /* Very light grey background color */
+  padding: 20px; /* Add padding inside the sidebar */
+  border-left: 2px solid #ddd; /* Add a left border */
+  margin-top: 20px; /* Add top margin */
+}
+
+/* Wrapper styles */
+.wrapper {
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Section styles inside the sidebar */
+.design-selection, .design-archives, .zen-resources {
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Heading styles inside sidebar sections */
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+  font-size: 1.5em; /* Set the font size */
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* List styles inside sidebar sections */
+.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
+  list-style: none; /* Remove default list style */
+  padding: 0; /* Remove default padding */
+}
+
+/* List item styles inside sidebar sections */
+.design-selection li, .design-archives li, .zen-resources li {
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Link styles inside sidebar sections */
+.design-selection a, .design-archives a, .zen-resources a {
+  color: #0066cc; /* Set link color to blue */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Indicator styles inside archives section */
+.design-archives .indicator {
+  margin-left: 5px; /* Add left margin */
+}
